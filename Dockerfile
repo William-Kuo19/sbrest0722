@@ -16,7 +16,7 @@ FROM eclipse-temurin:17-jre-alpine
 WORKDIR /sbrest0722
 
 # å¾?Stage 1 è¤‡è£½ç·¨è­¯å¥½ç? JARï¼ˆç??¬è??¨è¬?¨å??ƒè??†ï?
-COPY --from=builder /mythymeleaf0811/target/*.jar sbrest0722.jar
+COPY --from=builder /sbrest0722/target/*.jar sbrest0722.jar
 
 # å®¹å™¨?Ÿå??‚åŸ·è¡?JARï¼Œä¸¦?ç¢º?‡å?ä½¿ç”¨ prod Profile
 ENTRYPOINT ["java", "-jar", "sbrest0722.jar"]
