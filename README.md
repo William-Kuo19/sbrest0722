@@ -1,1 +1,1 @@
-https://sbrest0722-oott.onrender.com/api/user
+https://sbrest0722-oott.onrender.com/api/users
